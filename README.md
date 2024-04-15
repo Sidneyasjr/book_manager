@@ -11,9 +11,16 @@ Gestão de livros
 
 
 ## 🚀 Como executar
-- Clone o repositório
+- Clone o repositório `git clone https://github.com/Sidneyasjr/book_manager.git`
 - Instale as dependências com `composer install`
 - Copie o arquivo `.env.example` e crie um arquivo `.env` com as credenciais do seu banco de dados
 - Gere a chave da aplicação com `php artisan key:generate`
 - Execute as migrations com `php artisan migrate`
 - Gere a chave JWT com `php artisan jwt:secret`
+
+## 🚀  Como executar os testes
+- Copie o arquivo `.env.testing.example` e crie um arquivo `.env.testing` com as credenciais do seu banco de dados
+- Copie o APP_KEY do arquivo `.env` para o arquivo `.env.testing`
+- Copie JWT_SECRET do arquivo `.env` para o arquivo `.env.testing`
+- Crie um banco de dados de teste
+- Execute os testes com `php artisan test`
