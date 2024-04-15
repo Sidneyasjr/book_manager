@@ -9,6 +9,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 Gestão de livros
 
+## Documentação
+- [Documentação da API](https://documenter.getpostman.com/view/16008943/2sA3Bj8E7H#d15755d7-b153-436a-a416-e00ebb257b83)
 
 ## 🚀 Como executar
 - Clone o repositório `git clone https://github.com/Sidneyasjr/book_manager.git`
